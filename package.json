@@ -1,0 +1,30 @@
+{
+  "name": "node-postmates",
+  "version": "0.0.0",
+  "description": "Node.JS Wrapper for Postmate's API",
+  "main": "postmates.js",
+  "scripts": {
+    "test": "tape test/test.*.js && jshint postmates.js test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conlinism/node-postmates"
+  },
+  "keywords": [
+    "postmates",
+    "API"
+  ],
+  "author": "Conlin Durbin <me@conlindurb.in> (http://conlin.me)",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/conlinism/node-postmates/issues"
+  },
+  "homepage": "https://github.com/conlinism/node-postmates",
+  "dependencies": {
+    "underscore": "^1.7.0",
+  }
+  "devDependencies": {
+    "tape": "^3.2.0",
+    "jshint": "^2.5.11"
+  }
+}
